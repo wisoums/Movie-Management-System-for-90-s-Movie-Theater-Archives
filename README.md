@@ -1,2 +1,7 @@
-# Movie-Management-System-for-90-s-Movie-Theater-Archives
-this project is to develop a Java application that handles the organization and management of a large collection of 1990s movie data. The system is designed to sort, serialize, and enable easy navigation of movie records, leveraging Exception Handling and File I/O along with other advanced object-oriented programming concepts.
+The Movie Management System is tasked with processing and organizing a vast collection of movie records initially stored in text files by year. Each record details multiple attributes of a movie, such as year, title, duration, genres, and more. The project involves partitioning these records by genre, serializing them for efficient storage, and deserializing them into a navigable format for user interaction.
+
+<b>Technical Specifications:</b>
+
+ - Data Handling: Movies are classified and stored in genre-specific files, with each record serialized into a binary format to optimize storage and retrieval.
+ - Error Handling: The system robustly handles both syntax and semantic errors in movie data, logging issues and ensuring data integrity.
+ - Interactive Navigation: Users can navigate through serialized movie records interactively, providing a user-friendly way to access movie details based on genre.
